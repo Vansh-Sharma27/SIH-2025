@@ -277,13 +277,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Flutter Community** for excellent packages and support
 - **Firebase** for robust backend infrastructure
 
-## 📞 Contact & Support
-
-- **Project Lead**: [Your Name](mailto:your.email@example.com)
-- **Documentation**: [Wiki](https://github.com/yourusername/YatraLive/wiki)
-- **Issues**: [GitHub Issues](https://github.com/yourusername/YatraLive/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/YatraLive/discussions)
-
 ---
 
 <div align="center">
