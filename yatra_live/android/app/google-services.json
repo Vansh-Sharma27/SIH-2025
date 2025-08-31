@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "629580798219",
+    "firebase_url": "https://yatralive-sih2025-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "yatralive-sih2025",
+    "storage_bucket": "yatralive-sih2025.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:629580798219:android:e959c8070cc382d04daa0e",
+        "android_client_info": {
+          "package_name": "com.theuninitialized.yatra_live"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApsV-tITyfFoyQovI5xEGFsb03W2lYWos"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,372 @@
+{
+  "routes": {
+    "route_001": {
+      "routeName": "City Center to Airport",
+      "routeNumber": "A1",
+      "startPoint": "City Center Bus Stand",
+      "endPoint": "Airport Terminal 1",
+      "distance": 25.5,
+      "estimatedDurationMinutes": 45,
+      "isActive": true,
+      "pathCoordinates": [
+        {"lat": 28.6139, "lng": 77.2090},
+        {"lat": 28.6200, "lng": 77.2100},
+        {"lat": 28.6250, "lng": 77.2150},
+        {"lat": 28.6300, "lng": 77.2200},
+        {"lat": 28.5562, "lng": 77.1000}
+      ],
+      "stops": {
+        "stop_001": {
+          "id": "stop_001",
+          "name": "City Center Bus Stand",
+          "latitude": 28.6139,
+          "longitude": 77.2090,
+          "sequenceNumber": 1,
+          "estimatedArrivalMinutes": 0,
+          "isTerminal": true
+        },
+        "stop_002": {
+          "id": "stop_002",
+          "name": "Central Park",
+          "latitude": 28.6200,
+          "longitude": 77.2100,
+          "sequenceNumber": 2,
+          "estimatedArrivalMinutes": 8,
+          "isTerminal": false
+        },
+        "stop_003": {
+          "id": "stop_003",
+          "name": "Shopping Mall",
+          "latitude": 28.6250,
+          "longitude": 77.2150,
+          "sequenceNumber": 3,
+          "estimatedArrivalMinutes": 15,
+          "isTerminal": false
+        },
+        "stop_004": {
+          "id": "stop_004",
+          "name": "IT Park",
+          "latitude": 28.6300,
+          "longitude": 77.2200,
+          "sequenceNumber": 4,
+          "estimatedArrivalMinutes": 25,
+          "isTerminal": false
+        },
+        "stop_005": {
+          "id": "stop_005",
+          "name": "Airport Terminal 1",
+          "latitude": 28.5562,
+          "longitude": 77.1000,
+          "sequenceNumber": 5,
+          "estimatedArrivalMinutes": 45,
+          "isTerminal": true
+        }
+      }
+    },
+    "route_002": {
+      "routeName": "University to Railway Station",
+      "routeNumber": "B2",
+      "startPoint": "University Main Gate",
+      "endPoint": "Railway Station",
+      "distance": 18.2,
+      "estimatedDurationMinutes": 35,
+      "isActive": true,
+      "pathCoordinates": [
+        {"lat": 28.7041, "lng": 77.1025},
+        {"lat": 28.7000, "lng": 77.1100},
+        {"lat": 28.6950, "lng": 77.1200},
+        {"lat": 28.6900, "lng": 77.1300},
+        {"lat": 28.6414, "lng": 77.2186}
+      ],
+      "stops": {
+        "stop_006": {
+          "id": "stop_006",
+          "name": "University Main Gate",
+          "latitude": 28.7041,
+          "longitude": 77.1025,
+          "sequenceNumber": 1,
+          "estimatedArrivalMinutes": 0,
+          "isTerminal": true
+        },
+        "stop_007": {
+          "id": "stop_007",
+          "name": "Hostel Complex",
+          "latitude": 28.7000,
+          "longitude": 77.1100,
+          "sequenceNumber": 2,
+          "estimatedArrivalMinutes": 5,
+          "isTerminal": false
+        },
+        "stop_008": {
+          "id": "stop_008",
+          "name": "Medical College",
+          "latitude": 28.6950,
+          "longitude": 77.1200,
+          "sequenceNumber": 3,
+          "estimatedArrivalMinutes": 12,
+          "isTerminal": false
+        },
+        "stop_009": {
+          "id": "stop_009",
+          "name": "Civil Lines",
+          "latitude": 28.6900,
+          "longitude": 77.1300,
+          "sequenceNumber": 4,
+          "estimatedArrivalMinutes": 20,
+          "isTerminal": false
+        },
+        "stop_010": {
+          "id": "stop_010",
+          "name": "Railway Station",
+          "latitude": 28.6414,
+          "longitude": 77.2186,
+          "sequenceNumber": 5,
+          "estimatedArrivalMinutes": 35,
+          "isTerminal": true
+        }
+      }
+    },
+    "route_003": {
+      "routeName": "Residential Area Circular",
+      "routeNumber": "C3",
+      "startPoint": "Sector 14 Market",
+      "endPoint": "Sector 14 Market",
+      "distance": 12.8,
+      "estimatedDurationMinutes": 30,
+      "isActive": true,
+      "pathCoordinates": [
+        {"lat": 28.5355, "lng": 77.3910},
+        {"lat": 28.5400, "lng": 77.3950},
+        {"lat": 28.5450, "lng": 77.4000},
+        {"lat": 28.5500, "lng": 77.4050},
+        {"lat": 28.5355, "lng": 77.3910}
+      ],
+      "stops": {
+        "stop_011": {
+          "id": "stop_011",
+          "name": "Sector 14 Market",
+          "latitude": 28.5355,
+          "longitude": 77.3910,
+          "sequenceNumber": 1,
+          "estimatedArrivalMinutes": 0,
+          "isTerminal": true
+        },
+        "stop_012": {
+          "id": "stop_012",
+          "name": "Sector 15 Housing",
+          "latitude": 28.5400,
+          "longitude": 77.3950,
+          "sequenceNumber": 2,
+          "estimatedArrivalMinutes": 7,
+          "isTerminal": false
+        },
+        "stop_013": {
+          "id": "stop_013",
+          "name": "Sector 16 School",
+          "latitude": 28.5450,
+          "longitude": 77.4000,
+          "sequenceNumber": 3,
+          "estimatedArrivalMinutes": 15,
+          "isTerminal": false
+        },
+        "stop_014": {
+          "id": "stop_014",
+          "name": "Sector 17 Park",
+          "latitude": 28.5500,
+          "longitude": 77.4050,
+          "sequenceNumber": 4,
+          "estimatedArrivalMinutes": 22,
+          "isTerminal": false
+        }
+      }
+    }
+  },
+  
+  "buses": {
+    "bus_001": {
+      "busNumber": "DL-1PC-0101",
+      "routeId": "route_001",
+      "latitude": 28.6139,
+      "longitude": 77.2090,
+      "status": "active",
+      "driverId": "driver_001",
+      "passengerCount": 25,
+      "speed": 35.5,
+      "heading": 45.2,
+      "lastUpdated": 1704067200000,
+      "sessionStarted": 1704060000000
+    },
+    "bus_002": {
+      "busNumber": "DL-1PC-0102",
+      "routeId": "route_001",
+      "latitude": 28.6250,
+      "longitude": 77.2150,
+      "status": "active",
+      "driverId": "driver_002",
+      "passengerCount": 40,
+      "speed": 28.0,
+      "heading": 90.0,
+      "lastUpdated": 1704067150000,
+      "sessionStarted": 1704061800000
+    },
+    "bus_003": {
+      "busNumber": "DL-1PC-0201",
+      "routeId": "route_002",
+      "latitude": 28.7000,
+      "longitude": 77.1100,
+      "status": "active",
+      "driverId": "driver_003",
+      "passengerCount": 18,
+      "speed": 42.0,
+      "heading": 180.0,
+      "lastUpdated": 1704067180000,
+      "sessionStarted": 1704062400000
+    },
+    "bus_004": {
+      "busNumber": "DL-1PC-0202",
+      "routeId": "route_002",
+      "latitude": 28.6414,
+      "longitude": 77.2186,
+      "status": "inactive",
+      "passengerCount": 0,
+      "lastUpdated": 1704064800000,
+      "sessionEnded": 1704064800000
+    },
+    "bus_005": {
+      "busNumber": "DL-1PC-0301",
+      "routeId": "route_003",
+      "latitude": 28.5400,
+      "longitude": 77.3950,
+      "status": "active",
+      "driverId": "driver_004",
+      "passengerCount": 12,
+      "speed": 25.0,
+      "heading": 270.0,
+      "lastUpdated": 1704067230000,
+      "sessionStarted": 1704063600000
+    }
+  },
+  
+  "users": {
+    "passenger_001": {
+      "name": "Rajesh Kumar",
+      "email": "rajesh@example.com",
+      "phoneNumber": "+91 9876543210",
+      "userType": "passenger",
+      "createdAt": 1704024000000,
+      "lastActive": 1704067200000,
+      "favoriteRoutes": ["route_001", "route_002"],
+      "notificationPreferences": {
+        "busArrival": true,
+        "delays": true,
+        "crowding": false
+      }
+    },
+    "passenger_002": {
+      "name": "Priya Sharma",
+      "email": "priya@example.com",
+      "phoneNumber": "+91 9876543211",
+      "userType": "passenger",
+      "createdAt": 1704024000000,
+      "lastActive": 1704066000000,
+      "favoriteRoutes": ["route_003"],
+      "notificationPreferences": {
+        "busArrival": true,
+        "delays": true,
+        "crowding": true
+      }
+    },
+    "driver_001": {
+      "name": "Suresh Singh",
+      "email": "suresh.driver@example.com",
+      "phoneNumber": "+91 9876543220",
+      "userType": "driver",
+      "createdAt": 1704024000000,
+      "lastActive": 1704067200000,
+      "licenseNumber": "DL123456789",
+      "busId": "bus_001",
+      "isOnDuty": true
+    },
+    "driver_002": {
+      "name": "Amit Verma",
+      "email": "amit.driver@example.com",
+      "phoneNumber": "+91 9876543221",
+      "userType": "driver",
+      "createdAt": 1704024000000,
+      "lastActive": 1704067150000,
+      "licenseNumber": "DL987654321",
+      "busId": "bus_002",
+      "isOnDuty": true
+    },
+    "driver_003": {
+      "name": "Rakesh Gupta",
+      "email": "rakesh.driver@example.com",
+      "phoneNumber": "+91 9876543222",
+      "userType": "driver",
+      "createdAt": 1704024000000,
+      "lastActive": 1704067180000,
+      "licenseNumber": "DL456789123",
+      "busId": "bus_003",
+      "isOnDuty": true
+    },
+    "driver_004": {
+      "name": "Vijay Kumar",
+      "email": "vijay.driver@example.com",
+      "phoneNumber": "+91 9876543223",
+      "userType": "driver",
+      "createdAt": 1704024000000,
+      "lastActive": 1704067230000,
+      "licenseNumber": "DL789123456",
+      "busId": "bus_005",
+      "isOnDuty": true
+    }
+  },
+  
+  "feedback": {
+    "feedback_001": {
+      "userId": "passenger_001",
+      "busId": "bus_001",
+      "type": "delay",
+      "data": {
+        "delayMinutes": 10,
+        "reason": "Traffic jam",
+        "stopId": "stop_002"
+      },
+      "timestamp": 1704067000000
+    },
+    "feedback_002": {
+      "userId": "passenger_002",
+      "busId": "bus_005",
+      "type": "crowding",
+      "data": {
+        "crowdLevel": "high",
+        "passengers": 45,
+        "stopId": "stop_012"
+      },
+      "timestamp": 1704066800000
+    }
+  },
+  
+  "notifications": {
+    "notification_001": {
+      "routeId": "route_001",
+      "type": "arrival",
+      "title": "Bus Arriving Soon!",
+      "message": "Bus DL-1PC-0101 will arrive at Central Park in 3 minutes",
+      "busId": "bus_001",
+      "stopId": "stop_002",
+      "estimatedMinutes": 3,
+      "timestamp": 1704067100000
+    },
+    "notification_002": {
+      "routeId": "route_002",
+      "type": "delay",
+      "title": "Bus Delayed",
+      "message": "Bus DL-1PC-0201 is delayed by 8 minutes due to traffic",
+      "busId": "bus_003",
+      "delayMinutes": 8,
+      "reason": "Heavy traffic",
+      "timestamp": 1704067050000
+    }
+  }
+}

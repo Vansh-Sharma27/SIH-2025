@@ -1,0 +1,103 @@
+# YatraLive Project Dependencies
+# ================================
+# 
+# NOTE: This is a Flutter/Dart project. Dependencies are managed through pubspec.yaml
+# This file is provided for documentation purposes and CI/CD tooling compatibility.
+#
+# To install Flutter project dependencies, run:
+#   flutter pub get
+#
+# The actual dependencies are defined in pubspec.yaml and pubspec.lock files.
+
+# ============================================================================
+# FLUTTER/DART DEPENDENCIES (from pubspec.yaml)
+# ============================================================================
+# 
+# Core Dependencies:
+# ------------------
+# flutter: SDK integrated
+# cupertino_icons: 1.0.2           # iOS-style icons
+# flutter_map: 4.0.0               # Interactive maps without API keys  
+# latlong2: 0.8.1                  # Coordinate handling for maps
+# provider: 6.1.1                  # State management solution
+# firebase_core: 2.24.2            # Firebase initialization
+#
+# Development Dependencies:
+# ------------------------
+# flutter_test: SDK integrated
+# flutter_lints: 3.0.0            # Dart code analysis rules
+
+# ============================================================================
+# PYTHON TOOLING REQUIREMENTS (for supporting scripts)
+# ============================================================================
+# If you need Python tools for development/testing, create tooling_requirements.txt:
+#
+# Example tooling_requirements.txt:
+# ----------------------------------
+# pyyaml>=6.0         # For parsing pubspec.yaml
+# requests>=2.28.0    # For API testing
+# firebase-admin>=6.0 # For Firebase management scripts
+# matplotlib>=3.5.0   # For performance visualization
+# pandas>=1.4.0       # For data analysis
+
+# ============================================================================
+# SYSTEM REQUIREMENTS
+# ============================================================================
+#
+# Flutter SDK: 3.10.0 or higher
+# Dart SDK: 3.0.0 or higher
+# Android Studio: Latest stable (for Android development)
+# Xcode: 14.0+ (for iOS development, macOS only)
+# Chrome: Latest stable (for web development)
+#
+# Platform-specific requirements are handled by Flutter toolchain.
+
+# ============================================================================
+# FIREBASE REQUIREMENTS (Runtime)
+# ============================================================================
+#
+# These are configured through Firebase Console and firebase_options.dart:
+# - Firebase Realtime Database
+# - Firebase Cloud Messaging
+# - Firebase Analytics (optional)
+# - Firebase Auth (planned)
+
+# ============================================================================
+# HOW TO SET UP DEVELOPMENT ENVIRONMENT
+# ============================================================================
+#
+# 1. Install Flutter SDK:
+#    https://docs.flutter.dev/get-started/install
+#
+# 2. Clone repository:
+#    git clone https://github.com/yourusername/YatraLive.git
+#    cd YatraLive/yatra_live
+#
+# 3. Install dependencies:
+#    flutter pub get
+#
+# 4. Run the application:
+#    flutter run -d chrome  # For web
+#    flutter run           # For mobile device/emulator
+#
+# 5. For production deployment:
+#    flutter build web     # Build for web
+#    flutter build apk     # Build for Android
+#    flutter build ios     # Build for iOS (macOS only)
+
+# ============================================================================
+# CI/CD COMPATIBILITY
+# ============================================================================
+#
+# For GitHub Actions or other CI systems, use Flutter action:
+#
+# Example workflow:
+# ----------------
+# - uses: subosito/flutter-action@v2
+#   with:
+#     flutter-version: '3.10.0'
+# - run: flutter pub get
+# - run: flutter test
+# - run: flutter build web
+
+# End of requirements documentation

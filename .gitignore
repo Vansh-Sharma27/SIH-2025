@@ -1,0 +1,51 @@
+# Generic
+.DS_Store
+
+# Flutter
+build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+pubspec.lock
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# Android
+/android/app/src/main/assets/flutter_assets/
+/android/app/build/
+/android/build/
+/android/.gradle/
+/android/app/google-services.json
+
+# iOS
+/ios/build/
+/ios/Pods/
+/ios/Runner/GeneratedPluginRegistrant.h
+/ios/Runner/GeneratedPluginRegistrant.m
+/ios/Flutter/App.framework
+/ios/Flutter/engine.xcconfig
+/ios/Flutter/flutter_assets/
+
+# macOS
+/macos/build/
+/macos/Pods/
+
+# Web
+/web/build/
+
+# Windows
+/windows/build/
+
+# Linux
+/linux/build/
+
+# Secrets
+.env
